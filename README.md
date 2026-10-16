@@ -307,30 +307,3 @@ run_required_tests.cmd
 ```bat
 .venv\Scripts\python.exe main.py run-tests --generator ollama --ollama-model qwen2.5:3b
 ```
-
-## 13. Publish to GitHub
-
-1. Create a new, empty GitHub repository in your browser. Do not initialize it with a README or `.gitignore`.
-2. In PowerShell, from this project folder, run the following. Replace `YOUR-USERNAME` with your GitHub username.
-
-```powershell
-git init
-git add .
-git status
-git commit -m "Build Hindi PDF RAG assignment"
-git branch -M main
-git remote add origin https://github.com/YOUR-USERNAME/hindi-pdf-rag-assignment.git
-git push -u origin main
-```
-
-Before `git add .`, make sure you have generated and reviewed `outputs\test_answers.md`. The source PDF, ChromaDB database, virtual environment, and secrets are ignored by Git; the reviewed answer report is included.
-
-Open the repository in a private/incognito browser window before sharing its link. Never commit API keys, `.env` files, or private source material without permission.
-
-## 14. Improvements with more time
-
-- Add labelled retrieval evaluation: is the correct source page in the top-k results?
-- Add a cross-encoder reranker for difficult questions.
-- Add table-specific extraction and tests.
-- Use PDF layout/font signals or a manual heading map for more precise section metadata.
-- Add a small web or desktop interface for non-technical users.
