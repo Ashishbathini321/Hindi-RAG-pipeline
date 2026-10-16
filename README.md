@@ -307,3 +307,8 @@ run_required_tests.cmd
 ```bat
 .venv\Scripts\python.exe main.py run-tests --generator ollama --ollama-model qwen2.5:3b
 ```
+
+```bat
+& .\.venv\Scripts\python.exe main.py run-tests --generator ollama --ollama-model qwen2.5:3b
+Get-Content -Encoding UTF8 .\outputs\test_answers.md
+```
