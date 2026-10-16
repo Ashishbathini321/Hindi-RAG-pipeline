@@ -1,0 +1,13 @@
+# Local source material and generated vector data
+data/*.pdf
+data/*.PDF
+chroma_db/
+outputs/*.json
+
+# Python and editor files
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.env
+.vscode/

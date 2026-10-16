@@ -1,0 +1,34 @@
+{
+  "queries": [
+    {
+      "id": 1,
+      "language": "Hindi",
+      "query": "SLV-III ने किस उपग्रह को कक्षा में स्थापित किया और किस वर्ष?"
+    },
+    {
+      "id": 2,
+      "language": "Hindi",
+      "query": "कलाम को भारत रत्न किस वर्ष प्राप्त हुआ?"
+    },
+    {
+      "id": 3,
+      "language": "Hindi",
+      "query": "पोखरण-II में कलाम की क्या भूमिका थी?"
+    },
+    {
+      "id": 4,
+      "language": "English",
+      "query": "Which institution did Kalam attend to study aeronautical engineering?"
+    },
+    {
+      "id": 5,
+      "language": "English",
+      "query": "Who co-wrote the autobiography, and in what year was it published?"
+    },
+    {
+      "id": 6,
+      "language": "English",
+      "query": "How and where did Kalam die in 2015?"
+    }
+  ]
+}

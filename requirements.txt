@@ -1,0 +1,7 @@
+chromadb>=0.5.5,<1.0
+sentence-transformers>=3.0,<4.0
+pypdf>=4.2,<6.0
+pdfplumber>=0.11,<1.0
+# ChromaDB 0.x calls the legacy PostHog capture API; newer major versions print
+# harmless but distracting telemetry errors on every local database operation.
+posthog>=2.4,<4
